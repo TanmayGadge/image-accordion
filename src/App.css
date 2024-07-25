@@ -1,0 +1,11 @@
+header{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 102px;
+    color: #130D14;
+}
+
+header::selection{
+    color: #ffedfa;
+    background-color: #130D14;
+}
