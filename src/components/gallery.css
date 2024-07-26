@@ -16,9 +16,6 @@ img{
     height: var(--img-height);
     object-fit: cover;
     border-radius: 10px;
-    /* border: .1px solid #1c1a22; */
-
-    /* box-shadow: 0 0 black 5px 5px; */
 }
 img:hover{
     width: 20%;
