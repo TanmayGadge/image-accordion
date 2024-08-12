@@ -21,3 +21,6 @@ img:hover{
     width: 20%;
 }
 
+.uploaded-image{
+    transition: width ease-out 0.75s;
+}

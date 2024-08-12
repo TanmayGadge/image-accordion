@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import "./App.css";
-import Gallery from "./components/gallery";
-import Input from "./components/input";
-import images from "./components/images";
+import Gallery from "./components/gallery/gallery";
+import Input from "./components/input/input";
+import images from "./components/gallery/images";
 import gsap from "gsap";
 import TextPlugin from "gsap/TextPlugin";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import SplitType from "split-type";
-import Heading from "./components/heading";
+import Heading from "./components/heading/heading";
 
 function App() {
   // gsap.registerPlugin(TextPlugin);
@@ -27,16 +27,13 @@ function App() {
 
   return (
     <div className="App">
-      {/* <header >
-        Welcome to <span className='anim-text'></span>
-        </header> */}
       <Heading />
       <main>
         <Gallery images={images} />
       </main>
-      <footer>
+      {/* <footer>
         <Input />
-      </footer>
+      </footer> */}
     </div>
   );
 }

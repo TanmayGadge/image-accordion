@@ -18,7 +18,7 @@ function Heading() {
 
   return (
     <header>
-      Welcome to <br /><span className="anim-text"></span>
+      <div className="anim-text"></div>
     </header>
   );
 }
